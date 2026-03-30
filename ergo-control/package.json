@@ -9,24 +9,18 @@
     "mock": "node ../mockModule.js"
   },
   "dependencies": {
-    "expo": "~52.0.0",
-    "expo-dev-client": "~4.0.0",
-    "expo-status-bar": "~2.0.0",
-    "expo-secure-store": "~14.0.0",
-    "expo-sqlite": "~14.0.0",
-    "@react-navigation/native": "^6.1.18",
-    "@react-navigation/native-stack": "^6.11.0",
-    "@react-navigation/bottom-tabs": "^6.6.1",
-    "react": "18.3.2",
-    "react-native": "0.76.5",
-    "react-native-screens": "~4.0.0",
-    "react-native-safe-area-context": "4.12.0",
-    "zustand": "^5.0.0",
-    "axios": "^1.7.0",
-    "@react-native-community/netinfo": "^11.4.0"
+    "@react-navigation/bottom-tabs": "^7.15.8",
+    "@react-navigation/native": "^7.2.1",
+    "@react-navigation/native-stack": "^7.14.9",
+    "expo": "~55.0.8",
+    "expo-dev-client": "~55.0.18",
+    "expo-status-bar": "~55.0.4",
+    "react": "19.2.0",
+    "react-native": "0.83.2",
+    "react-native-safe-area-context": "~5.6.2",
+    "react-native-screens": "~4.23.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.25.0",
-    "ws": "^8.18.0"
+    "@babel/core": "^7.25.0"
   }
 }
