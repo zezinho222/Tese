@@ -11,7 +11,7 @@ import {
   ScrollView,
   ActivityIndicator,
 } from 'react-native';
-import { colors, sharedStyles } from '../../constants/theme';
+import { colors, sharedStyles } from '../../utils/shared-Styles';
 
 export default function RegisterPage({ navigation }) {
   const [form, setForm] = useState({

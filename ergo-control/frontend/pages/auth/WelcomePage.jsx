@@ -6,7 +6,7 @@ import {
   SafeAreaView,
   TouchableOpacity,
 } from 'react-native';
-import { colors, sharedStyles } from '../../constants/theme';
+import { colors, sharedStyles } from '../../utils/shared-Styles';
 
 export default function WelcomePage({ navigation }) {
   return (
