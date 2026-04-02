@@ -13,7 +13,10 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.lanzass.ergocontrol"
+      "bundleIdentifier": "com.lanzass.ergocontrol",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -26,6 +29,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b917e70a-7e00-48d0-a6ce-9f1e5813c4de"
+      }
     }
   }
 }
